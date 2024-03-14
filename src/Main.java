@@ -70,7 +70,7 @@ public class Main {
 
             }
             if (changeColorCnt1 < min) min = changeColorCnt1;  // 현재 변경 횟수가 최솟값보다 작으면 갱신
-            else if (changeColorCnt2 < min) min = changeColorCnt2;
+            if (changeColorCnt2 < min) min = changeColorCnt2;
 
             if (startI < maxStartI) startI++;
             else if (startJ < maxStartJ){
