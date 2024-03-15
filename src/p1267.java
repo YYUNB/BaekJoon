@@ -17,9 +17,9 @@ public class p1267 {
             m += (time/60 + 1) * 15;
         }
 
-        if (y>m) bw.write(String.valueOf("M " + m));
-        else if (y<m) bw.write(String.valueOf("Y " + y));
-        else bw.write(String.valueOf("Y M " + y));
+        if (y>m) bw.write("M " + m);
+        else if (y<m) bw.write("Y " + y);
+        else bw.write("Y M " + y);
 
         bw.flush();
     }
